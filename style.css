@@ -10,15 +10,10 @@
 .product{
     background-image: url("un.jpg");
     background-size: cover;
-    height: 110vh;
+    height: 205vh;
     
 }
-.product2{
-    background-image: url("third-bnr.jpg");
-    background-size: cover;
-    height: 100vh;
-    
-}
+
 
 
 .para{
@@ -30,7 +25,7 @@
 
 .text-all{
     float: right;
-    color:  #ffcd17;
+    color:  goldenrod;
     margin-top: 15px;
 }
 
@@ -40,4 +35,34 @@
 
 .btn2{
     text-align: center;
+}
+
+.middle{
+    color:green;
+    margin-top: 35px;
+    
+    position:relative;
+    
+  }
+  
+  .middle::after{
+    content:'';
+    height:5px;
+    width:7%;
+    background:goldenrod;
+    position:absolute;
+    left:calc(47%);
+    bottom:-15px;
+    border-radius: 10px;
+  /*   another way you can achieve this
+    Check this link: 
+    https://goo.gl/GgRdjz
+    
+    */
+    
+  }
+
+.middle{
+    text-align: center;
+    
 }
