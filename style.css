@@ -11,3 +11,17 @@
     text-align: justify;
     color: rgb(58, 55, 55);
 }
+
+.bnr{
+    margin-bottom: 3rem;
+}
+
+.text-all{
+    float: right;
+    color:  #C29B0C;
+    margin-top: 15px;
+}
+
+.card-title, .card-text, .h{
+    text-align: center;
+}
