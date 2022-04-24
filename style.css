@@ -1,0 +1,13 @@
+.nv{
+    background-color: rgb(237, 255, 237);
+}
+
+.banner-image{
+    background-image: url(banner-img.jpg);
+    background-size: cover;
+}
+
+.para{
+    text-align: justify;
+    color: rgb(58, 55, 55);
+}
