@@ -7,12 +7,7 @@
     background-size: cover;
 }
 
-.product{
-    background-image: url("un.jpg");
-    background-size: cover;
-    height: 205vh;
-    
-}
+
 
 
 
@@ -38,7 +33,7 @@
 }
 
 .middle{
-    color:green;
+    
     margin-top: 35px;
     
     position:relative;
@@ -66,3 +61,12 @@
     text-align: center;
     
 }
+
+.hlf1{
+    padding: 20px;
+}
+
+.hlf2{
+    padding: 20px;
+}
+
